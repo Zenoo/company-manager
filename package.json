@@ -1,0 +1,39 @@
+{
+  "name": "company-manager",
+  "version": "1.4.0",
+  "description": "A game about managing a company",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenoo/company-manager.git"
+  },
+  "author": "Zenoo",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/zenoo/company-manager/issues"
+  },
+  "homepage": "https://github.com/zenoo/company-manager#readme",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "start http://localhost:8080 && next dev -p 8080",
+    "build": "next build",
+    "rebase": "git fetch --all && git rebase origin/main",
+    "generate-assets": "tsx scripts/generate-assets.ts"
+  },
+  "dependencies": {
+    "next": "14.2.21",
+    "phaser": "^3.87.0",
+    "phaser3-rex-plugins": "^1.80.12",
+    "react": "^18",
+    "react-dom": "^18",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/webfontloader": "^1.6.38",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  }
+}

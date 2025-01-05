@@ -1,0 +1,9 @@
+{
+  "packages": {
+    ".": {
+      "extra-files": [
+        "src/utils/Version.ts"
+      ]
+    }
+  }
+}
