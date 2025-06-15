@@ -21,7 +21,7 @@
     "generate-assets": "tsx scripts/generate-assets.ts"
   },
   "dependencies": {
-    "next": "14.2.21",
+    "next": "14.2.30",
     "phaser": "^3.87.0",
     "phaser3-rex-plugins": "^1.80.12",
     "react": "^18",
